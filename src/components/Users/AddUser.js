@@ -30,7 +30,7 @@ const AddUser = (props) => {
     }
     props.onAddUser(enteredName, enteredUserAge);
     nameInputRef.current.value = "";
-    ageInputRef.current.age = "";
+    ageInputRef.current.value = "";
   };
   // const usernameChangeHandler = (event) => {
   //   setUsername(event.target.value);
