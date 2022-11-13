@@ -2,7 +2,7 @@
 User List Management
 
 ## Demo link:
-Preview link -  https://coursemanager.netlify.app/
+Preview link -  https://userlist-manager.netlify.app/
 
 ## Table of Content:
 
@@ -15,17 +15,24 @@ Preview link -  https://coursemanager.netlify.app/
 
 
 ## About The App
-CourseManager is an app that helps to track the course goals for an user. 
-The user can delete the course if the goal is achieved or can add a new course to the course list.
+UserList Managament lets you add users to the list of years with valdiation of age and name.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/61748949/201510266-61cfad12-b5ce-4398-933c-db1d4e949a79.png)
+![image](https://user-images.githubusercontent.com/61748949/201517417-b6d3826d-dd57-4081-a8df-a33fecc196ba.png)
+
+![image](https://user-images.githubusercontent.com/61748949/201517419-e77c7080-49b2-4ec3-a21e-07af79b271e4.png)
+
+![image](https://user-images.githubusercontent.com/61748949/201517447-6c904531-50e9-4daa-a116-bfaff26e391a.png)
+
 
 ## Technologies
 I used HTML5,CSS3,Javascript and ReactJS to achieve the full functionality of the project.
 
 ## Approach
-This project focuses on implementation of react hook useState and dynamically assigning styles based on the current state of the components.
+
+The User List Management App lets you add users to the List of users.
+UserInput validation is done using state management of React where the input fields cannot be blank and the age cannot be negative.
+
 ## Setup
 
 ## Getting Started with Create React App
