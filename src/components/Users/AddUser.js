@@ -26,6 +26,7 @@ const AddUser = (props) => {
         title: "Invalid input",
         message: "Please enter a valid age (>0)",
       });
+      return;
     }
     props.onAddUser(enteredName, enteredUserAge);
     nameInputRef.current.value = "";
